@@ -23,12 +23,14 @@ module.exports = {
     },
     extend: {
       colors: {
+        white:"#FAFAFA",
         blue: "hsla(202, 87%, 54%, 1)",
         green: "hsla(165, 58%, 33%, 1)",
         black: "hsla(228, 28%, 20%, 1)",
         light_gray: "hsla(0, 0%, 74%, 1)",
         dark_gray: "hsla(0, 0%, 45%, 1)",
         gray: "hsla(0, 0%, 52%, 1)",
+        dark_blue: "hsla(228, 28%, 20%, 1)",
       },
     },
   },

@@ -1,0 +1,37 @@
+.frame{
+    @apply px-[33px] bg-white h-screen flex flex-col items-center;
+}
+
+.catalog{
+    @apply w-fit;
+}
+
+.card-container{
+    @apply flex flex-wrap gap-[30px] justify-center;
+}
+.catalog-title{
+    @apply pb-[24px] text-dark_blue font-bold text-2xl  mb-[24px]  w-full text-center;
+    border-bottom: 1px solid #ECECEC;
+}
+
+@media (min-width: 768px) {
+    .frame{
+        @apply px-[100px];
+    }
+    .catalog{
+        @apply px-[10px];
+    }
+
+    .catalog-title{
+        @apply text-start;
+    }
+    .card-container{
+        @apply gap-[20px] justify-between;
+    }
+}
+
+@media(min-width: 1440px){
+    .frame{
+        @apply px-[195px];
+    }
+}

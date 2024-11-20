@@ -1,0 +1,25 @@
+/* styles.css */
+.card{
+    @apply bg-[#fff] w-[328px] h-[589px] flex flex-col;
+}
+.content{
+    @apply w-full p-[25px] pb-[35px] flex flex-col items-start justify-start gap-[10px];
+}
+.title{
+    @apply font-bold text-dark_blue text-base;
+}
+.subtitle{
+    @apply font-bold text-sm text-dark_gray;
+}
+.price{
+    @apply font-bold text-base text-green flex flex-row gap-1;
+}
+.prevPrice{
+    @apply text-light_gray;
+}
+
+@media (min-width: 768px) {
+    .card{
+        @apply h-[442px] w-[240px];
+    }
+}

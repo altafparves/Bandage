@@ -1,0 +1,16 @@
+/* styles.css */
+.menu{
+    @apply flex flex-col items-center justify-center gap-y-7;
+}
+.menu-item{
+  @apply text-3xl font-normal text-dark_gray;
+}
+
+@media (min-width: 768px) {
+    .menu{
+        @apply flex-row gap-3.5;
+    }
+  .menu-item {
+    @apply text-sm font-bold text-dark_gray;
+  }
+}
