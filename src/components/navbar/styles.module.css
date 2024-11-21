@@ -1,28 +1,23 @@
 /* styles.css */
-
-.menu {
-  @apply flex absolute flex-col w-screen gap-[21px] bg-[#fff] items-center justify-center py-[16px] left-0 top-[82px]  right-0;
+.navbar{
+  @apply w-full px-[35px] bg-[#fff] py-[10px] flex flex-row justify-between items-center fixed top-0 md:px-[100px] xl:px-[199px] ;
 }
+
 .menuLeft,.menuRight{
-  @apply flex flex-col items-center justify-center gap-[27px];
+  @apply flex flex-col lg:flex-row items-center justify-center gap-[27px] lg:gap-[30px];
 }
 /* .menuLeft, .menuRight{
     @apply flex flex-col items-center justify-center gap-y-7;
 } */
  
 .menuItem{
-  @apply text-[30px] font-normal hover:text-black text-dark_gray;
+  @apply text-[30px] lg:text-[14px] lg:font-bold font-normal hover:text-black text-dark_gray;
 }
 
 .actionBtn{
-  @apply flex flex-row gap-[5px] items-center  text-blue text-[12px] font-[400];
+  @apply flex flex-row gap-[5px] items-center  text-blue text-[12px] font-[400] lg:text-[14px]  lg:font-bold ;
 }
 
-@media (min-width: 768px) {
-    /* .menu{
-        @apply flex-row gap-3.5;
-    } */
-  .menu-item {
-    @apply text-sm font-bold text-dark_gray;
-  }
+.IcBtn{
+  @apply lg:h-[16px] lg:w-[16px];
 }
