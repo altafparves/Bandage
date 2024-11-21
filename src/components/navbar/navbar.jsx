@@ -8,7 +8,7 @@ import AccIcon from "../../assets/icons/ic-person.svg";
 import Banner from "../banner";
 
 export default function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
@@ -16,14 +16,13 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="w-full fixed top-0 flex flex-col">
+      <nav className="w-full z-50 fixed top-0 flex flex-col">
         <Banner />
         <div className={styles.navbar}>
           <Logo />
           <div
-            className={`${
-              isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-[20px] pointer-events-none"
-            } absolute lg:static left-0 top-[60px] lg:flex w-full lg:w-auto bg-white lg:bg-transparent py-4 lg:py-0 flex-col lg:flex-row lg:items-center gap-4 lg:gap-[50px] transition-all duration-500 ease-in-out lg:gap-[70px] xl:gap-[125px]`}
+            className={`absolute lg:static left-0 top-[60px] lg:flex w-full lg:w-auto bg-white lg:bg-transparent py-4 lg:py-0 flex-col lg:flex-row lg:items-center gap-4 lg:gap-[50px] transition-all duration-500 ease-in-out lg:gap-[70px] xl:gap-[125px] 
+  ${isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-[20px] pointer-events-none lg:opacity-100 lg:translate-y-0 lg:pointer-events-auto"}`}
           >
             {/* Menu Left */}
             <div className={`${styles.menuLeft} lg:flex-row`}>

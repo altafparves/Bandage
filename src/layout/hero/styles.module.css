@@ -2,13 +2,7 @@
   @apply flex flex-col gap-[30px] lg:flex-row lg:items-start items-center w-full py-[48px] lg:pt-[0];
 }
 
-.mainImg{
-    @apply w-full;
-}
 
-.heroImg {
-  @apply w-full lg:w-[50%] flex flex-col gap-[42px] items-start; 
-}
 
 .heroContent {
   @apply w-full lg:w-[50%] flex flex-col items-start;

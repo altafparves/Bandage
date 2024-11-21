@@ -2,24 +2,14 @@ import styles from "./styles.module.css";
 import CartIcon from "../../assets/icons/ic-basket.svg";
 import EyeIcon from "../../assets/icons/ic-more.svg";
 import StarIcon from "../../assets/icons/ic-star.svg";
+import HeartIcon from "../../assets/icons/ic-heart-rounded.png";
 import BorderStar from "../../assets/icons/ic-border-star.svg";
-import Img1 from "../../assets/img/img1.jpg";
-import Img2 from "../../assets/img/img2.jpg";
+import HeroImg from "./heroImg";
 
 const Hero = () => {
   return (
     <section className={styles.hero}>
-      <div className={styles.heroImg}>
-        <img src={Img2} className={styles.mainImg} alt="" />
-        <div className="flex flex-row items-center gap-[20px] justify-start">
-          <button className="w-[100px] h-[75px]">
-            <img src={Img1} className="w-full h-full" alt="" />
-          </button>
-          <button className="w-[100px] h-[75px]">
-            <img src={Img2} className="w-full h-full" alt="" />
-          </button>
-        </div>
-      </div>
+      <HeroImg />
       <div className={styles.heroContent}>
         <p className={styles.title}>Product Title</p>
         <div className={styles.reviews}>
@@ -45,11 +35,12 @@ const Hero = () => {
         </div>
         <div className="action flex items-center justify-start flex-row gap-[10px] h-[44px] w-[298px] mb-[24px]">
           <button className={styles.selectBtn}>Select Option</button>
+
           <button>
-            <img src={CartIcon} alt="" />
+            <img src={HeartIcon} alt="" />
           </button>
           <button>
-            <img src={EyeIcon} alt="" />
+            <img src={CartIcon} alt="" />
           </button>
           <button>
             <img src={EyeIcon} alt="" />

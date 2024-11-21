@@ -6,7 +6,7 @@ export default function MainLayout({ children }) {
     <>
       <div className="w-screen h-scree bg-[#FAFAFA] p-0">
         <Navbar/>
-        <p className="mt-[82px] breadCrumb flex flex-row justify-center items-center w-full py-[34px] lg:justify-start lg:px-[100px] text-black font-bold text-sm gap-[15px]">
+        <p className="mt-[82px] lg:mt-[140px] breadCrumb flex flex-row justify-center items-center w-full py-[34px] lg:justify-start lg:px-[100px] xl:px-[199px] text-black font-bold text-sm gap-[15px]">
           Home
           <img src={ArrowIc} alt="" />
           <span className="text-light_gray"> Shop</span>

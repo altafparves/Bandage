@@ -15,7 +15,7 @@
 }
 
 .actionBtn{
-  @apply flex flex-row gap-[5px] items-center  text-blue text-[12px] font-[400] lg:text-[14px]  lg:font-bold ;
+  @apply flex flex-row gap-[5px] items-center  text-blue text-[12px] font-[400] lg:text-[14px]  lg:font-normal ;
 }
 
 .IcBtn{
