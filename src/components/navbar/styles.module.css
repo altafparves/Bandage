@@ -1,0 +1,28 @@
+/* styles.css */
+
+.menu {
+  @apply flex absolute flex-col w-screen gap-[21px] bg-[#fff] items-center justify-center py-[16px] left-0 top-[82px]  right-0;
+}
+.menuLeft,.menuRight{
+  @apply flex flex-col items-center justify-center gap-[27px];
+}
+/* .menuLeft, .menuRight{
+    @apply flex flex-col items-center justify-center gap-y-7;
+} */
+ 
+.menuItem{
+  @apply text-[30px] font-normal hover:text-black text-dark_gray;
+}
+
+.actionBtn{
+  @apply flex flex-row gap-[5px] items-center  text-blue text-[12px] font-[400];
+}
+
+@media (min-width: 768px) {
+    /* .menu{
+        @apply flex-row gap-3.5;
+    } */
+  .menu-item {
+    @apply text-sm font-bold text-dark_gray;
+  }
+}

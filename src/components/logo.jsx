@@ -1,3 +1,3 @@
 export default function Logo(){
-    return <p className="text-custom-dark_blue font-bold text-base">Bandage</p>;
+    return <p className="py-[13px] text-custom-dark_blue font-bold text-[24px]">Bandage</p>;
 }

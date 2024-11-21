@@ -24,6 +24,7 @@ module.exports = {
     extend: {
       colors: {
         white:"#FAFAFA",
+        orange:"#E77C40",
         blue: "hsla(202, 87%, 54%, 1)",
         green: "hsla(165, 58%, 33%, 1)",
         black: "hsla(228, 28%, 20%, 1)",

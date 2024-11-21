@@ -3,13 +3,13 @@
 }
 
 .catalog{
-    @apply w-fit;
+    @apply w-fit py-[48px];
 }
 
-.card-container{
+.cardContainer{
     @apply flex flex-wrap gap-[30px] justify-center;
 }
-.catalog-title{
+.catalogTitle{
     @apply pb-[24px] text-dark_blue font-bold text-2xl  mb-[24px]  w-full text-center;
     border-bottom: 1px solid #ECECEC;
 }
@@ -22,10 +22,10 @@
         @apply px-[10px];
     }
 
-    .catalog-title{
+    .catalogTitle{
         @apply text-start;
     }
-    .card-container{
+    .cardContainer{
         @apply gap-[20px] justify-between;
     }
 }

@@ -1,0 +1,78 @@
+.hero {
+  @apply flex flex-col gap-[30px] lg:flex-row lg:items-start items-center w-full py-[48px] lg:pt-[0];
+}
+
+.mainImg{
+    @apply w-full;
+}
+
+.heroImg {
+  @apply w-full lg:w-[50%] flex flex-col gap-[42px] items-start; 
+}
+
+.heroContent {
+  @apply w-full lg:w-[50%] flex flex-col items-start;
+}
+
+.title {
+  @apply mb-[12px] text-[20px] text-dark_blue;
+  font-weight:500;
+}
+
+.reviews {
+  @apply flex flex-row gap-[10px] mb-[20px];
+}
+
+.star {
+  @apply w-fit flex flex-row gap-[5px];
+}
+
+.reviewText {
+  @apply text-dark_gray font-bold text-sm;
+}
+
+.price {
+  @apply font-bold mb-[5px] text-dark_blue text-2xl;
+}
+
+.status {
+  @apply mb-[32px] text-dark_gray font-bold text-[14px];
+}
+
+.statusText {
+  @apply text-blue;
+}
+
+.desc {
+  @apply pb-[16px] lg:pb-[27px] lg:mb-[29px] mb-[19px] text-gray text-sm;
+  border-bottom:1px solid #BDBDBD;
+  font-weight:500;
+}
+
+.colors {
+  @apply flex flex-row items-start justify-center gap-[10px] mb-[48px];
+}
+
+.color {
+  @apply w-[30px] h-[30px] rounded-full;
+}
+
+.colorBlue {
+  @apply bg-blue;
+}
+
+.colorGreen {
+  @apply bg-green;
+}
+
+.colorOrange {
+  @apply bg-orange;
+}
+
+.colorDarkBlue {
+  @apply bg-dark_blue;
+}
+
+.selectBtn{
+    @apply px-[20px] text-white font-bold bg-blue py-[10px] rounded-[5px] w-[50%];
+}
