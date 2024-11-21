@@ -23,8 +23,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        white:"#FAFAFA",
-        orange:"#E77C40",
+        white: "#FAFAFA",
+        orange: "#E77C40",
         blue: "hsla(202, 87%, 54%, 1)",
         green: "hsla(165, 58%, 33%, 1)",
         black: "hsla(228, 28%, 20%, 1)",
@@ -32,6 +32,9 @@ module.exports = {
         dark_gray: "hsla(0, 0%, 45%, 1)",
         gray: "hsla(0, 0%, 52%, 1)",
         dark_blue: "hsla(228, 28%, 20%, 1)",
+      },
+      fontFamily: {
+        sans: ["Montserrat", "sans-serif"], 
       },
     },
   },

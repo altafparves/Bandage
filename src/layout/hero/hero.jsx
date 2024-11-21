@@ -11,7 +11,7 @@ const Hero = () => {
     <section className={styles.hero}>
       <HeroImg />
       <div className={styles.heroContent}>
-        <p className={styles.title}>Product Title</p>
+        <p className={styles.title}>Leather Couch</p>
         <div className={styles.reviews}>
           <div className={styles.star}>
             <img src={StarIcon} alt="" />

@@ -18,7 +18,7 @@
     @apply text-light_gray;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 976px) {
     .card{
         @apply h-[442px] w-[240px];
     }

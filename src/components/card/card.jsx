@@ -4,7 +4,6 @@ import styles from  './styles.module.css'
 export default function Card({
     img,title, subtitle, prevPrice,price
 }){
-  console.log(img);
     return (
       <div className={styles.card}>
         <img src={img} alt="" className="h-[70%]" />
