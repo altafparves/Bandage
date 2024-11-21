@@ -36,7 +36,7 @@ export default function Navbar() {
             <div className={`${styles.menuRight} lg:flex-row`}>
               <button className={styles.actionBtn}>
                 <img src={AccIcon} className={styles.IcBtn} alt="Account" />
-                <p className="font-[400] text-[30px] lg:text-[14px]">Login / Register</p>
+                <p className="font-[400] text-[30px] lg:font-bold lg:text-[14px]">Login / Register</p>
               </button>
               <button className={styles.actionBtn}>
                 <img className={styles.IcBtn} src={SearchIcon} alt="Search" />
