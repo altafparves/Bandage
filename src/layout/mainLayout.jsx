@@ -1,6 +1,5 @@
 import React from "react";
 import ArrowIc from "../assets/icons/ic-arrow.svg";
-
 import Navbar from "../components/navbar/navbar";
 export default function MainLayout({ children }) {
   return (

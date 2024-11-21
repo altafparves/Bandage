@@ -1,6 +1,6 @@
 /* styles.css */
 .navbar{
-  @apply w-full px-[35px] bg-[#fff] py-[10px] flex flex-row justify-between items-center fixed top-0 md:px-[100px] xl:px-[199px] ;
+  @apply w-full md:px-[100px] xl:px-[199px] px-[35px] bg-[#fff] py-[10px] flex flex-row justify-between items-center   ;
 }
 
 .menuLeft,.menuRight{
